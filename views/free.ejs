@@ -42,30 +42,39 @@
 	</section>
   <div class="container card-main">
 
-	<div class="container">
+	<div class="container" style="padding-left: 5px !important;">
 		<div class="card1">
 			<div class="content">
 				<h2>01</h2>
 				<h3>Basics of stock marketing</h3>
 				<p>Before entering into Stock Market, you will need to understand some basic terms, and should have basic knowledge of stocks.</p>
-        <a src="./downloads/Basics.docs"> <button type="button" class="btn btn-sm btn-outline-light" name="button">Download Document</button> </a>
-
+        <a href="downloads/Basics.docx"> <button class="btn btn-sm btn-outline-light" name="button">Download Document</button> </a>
 			</div>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container" style="padding-left: 5px !important;">
 		<div class="card2">
 			<div class="content">
 				<h2>02</h2>
 				<h3>Stock marketing Analysis</h3>
 				<p>Before entering into Stock Market, you will need to understand some basic terms, and should have basic knowledge of stocks.</p>
-        <a src="./downloads/Basics.docs"> <button type="button" class="btn btn-sm btn-outline-light" name="button">Download Document</button> </a>
+        <a href="downloads/Analysis.docx"> <button type="button" class="btn btn-sm btn-outline-light" name="button">Download Document</button> </a>
 			</div>
 		</div>
 	</div>
 </div>
-	<section>
+    <%# Animation Part %>
 
+    <ul class="box-area">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+    <section>
 		<footer class="py-5 bg-black footer">
 			<div class="container">
 				<p class="text-center text-white m-0 small">Copyright&nbsp;© Stock Traders 2021</p>
@@ -76,7 +85,23 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript">
+  function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
 
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+  }
+  </script>
 
 </body>
 
