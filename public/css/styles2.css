@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap');
 *
 {
-
   font-family: 'Poppins', sans-serif;
 }
 body{
   background: linear-gradient(to left, #8942a8, #ba382f)
-
 }
 /* Navigation Bar */
 
@@ -64,7 +62,6 @@ display: flex;
   color: black;
 }
 .footer{
-  margin-top: 6%;
   margin-bottom: 0;
 }
 @media (max-width: 1025px){
